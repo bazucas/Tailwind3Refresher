@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/output.css">
+    <title>Extensão</title>
+</head>
+<body>
+    <!-- h1 por defeito já vai ter estilo por extensão no style.css-->
+    <h1>Aprender a utilizar TailwindCSS</h1>
+
+    <h1 class="text-xl font-normal">Aprender a utilizar TailwindCSS</h1>
+
+    <div class="card">
+        <h2>TESTE DIV</h2>
+    </div>
+
+    <!-- Como limitar textos -->
+    <div class="border-2 w-96">
+        <div class="whitespace-nowrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Temporibus cum consequuntur, maiores beatae tenetur, veritatis 
+            itaque quos aliquam quae ea quis excepturi voluptatibus numquam 
+            accusamus obcaecati exercitationem nihil molestias dolores.
+        </div>
+    </div>
+
+    <div class="border-2 w-96">
+        <div class="whitespace-nowrap overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Temporibus cum consequuntur, maiores beatae tenetur, veritatis 
+            itaque quos aliquam quae ea quis excepturi voluptatibus numquam 
+            accusamus obcaecati exercitationem nihil molestias dolores.
+        </div>
+    </div>
+
+    <div class="border-2 w-96">
+        <div class="whitespace-nowrap overflow-hidden text-ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Temporibus cum consequuntur, maiores beatae tenetur, veritatis 
+            itaque quos aliquam quae ea quis excepturi voluptatibus numquam 
+            accusamus obcaecati exercitationem nihil molestias dolores.
+        </div>
+    </div>
+
+    <br>
+
+    <p class="whitespace-pre-wrap leading-10">
+        1) Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quod? Corporis doloremque, maiores amet harum laboriosam id et quis, rerum provident sed sapiente dolorum numquam quibusdam sit iure magnam vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quod? Corporis doloremque, maiores amet harum laboriosam id et quis, rerum provident sed sapiente dolorum numquam quibusdam sit iure magnam vel?
+
+        2) Segundo paragrafo
+
+        3) TESTE!!!
+    </p>
+
+    <p class="whitespace-pre-wrap leading-[100px]">
+        1) Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quod? Corporis doloremque, maiores amet harum laboriosam id et quis, rerum provident sed sapiente dolorum numquam quibusdam sit iure magnam vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quod? Corporis doloremque, maiores amet harum laboriosam id et quis, rerum provident sed sapiente dolorum numquam quibusdam sit iure magnam vel?
+
+        2) Segundo paragrafo
+
+        3) TESTE!!!
+    </p>
+</body>
+</html>
