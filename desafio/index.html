@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../styles/output.css">
-    <title>Desafio Nike</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />    <title>Desafio Nike</title>
 </head>
-<body class="flex items-center justify-center min-h-screen">
+<body class="flex items-center justify-center min-h-screen overflow-hidden">
     <div class="w-full sm:h-screen flex flex-col sm:flex-row">
-      <div class="sm:w-1/2 flex flex-col items-center justify-center">
+      <div class="sm:w-1/2 flex flex-col items-center justify-center group">
         <p class="hidden sm:block text-md font-bold whitespace-nowrap absolute top-2 left-5">Refresher TailwindCSS</p>
         <div class="flex flex-col py-6 gap-2">
-            <h1 class="text-5xl">Lançamento <br> Nike Air.</h1>
-            <p class="text-lg">Os ténis do futuro.</p>
+            <h1 class="text-5xl">Lançamento</h1>
+            <p class="text-5xl font-bold group-hover:animate-floatRight">Nike Air.</p>
+            <p class="text-lg hover:animate-opacityPulse">Os ténis do futuro.</p>
             <p class="text-lg">O futuro a um passo do teu alcance!</p>
             <button class="bg-zinc-800 text-white text-lg py-3 mt-5 font-medium
-             hover:bg-white hover:text-zinc-800 max-w-52 duration-500 border-2 border-zinc-800">
+             hover:bg-white hover:text-zinc-800 max-w-52 duration-500 border-2 border-zinc-800 font-poppins">
                 QUERO CONHECER!
             </button>
         </div>
       </div>
       <div class="sm:w-1/2 bg-nike bg-no-repeat bg-cover bg-center flex items-center">
         <img src="assets/tenis.png" alt="tenis" 
-        class=""/>
+        class="max-w-lg w-11/12 md:w-full object-cover z-30 duration-300 hover:rotate-6 hover:scale-110 md:hover:scale-125"/>
       </div>
     </div>
   </body>
