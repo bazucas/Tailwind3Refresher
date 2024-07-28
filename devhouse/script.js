@@ -1,4 +1,5 @@
 const menuMobile = document.getElementById("menu")
+document.getElementById("current-year").textContent = new Date().getFullYear();
 
 function openMenu(){
   menuMobile.classList.remove("hidden")
