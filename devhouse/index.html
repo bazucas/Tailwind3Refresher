@@ -9,6 +9,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="/styles/output.css" />
   <title>Dev House</title>
+  <style>
+    #menu {
+      top: -430px; /* Define a posição inicial fora da tela */
+      transition: top 2s; /* Adiciona uma transição suave de 2 segundos */
+    }
+  </style>
 </head>
 <body class="bg-slate-200">
 
@@ -48,7 +54,7 @@
   <main class="flex w-full flex-col pb-4">
 
   <!-- INICIO MENU MOBILE -->
-   <div id="menu" class="absolute z-50 w-full hidden flex-col items-center px-3 py-2 bg-white shadow-xl">
+   <div id="menu" class="absolute z-50 w-full flex-col items-center px-3 py-2 bg-white shadow-xl sm:hidden top-[430px]">
     
     <div class="w-full flex items-center justify-between mt-4">
       <h1 class="text-rose-500 text-xl font-bold">DevHouse</h1>
