@@ -111,3 +111,6 @@ tailwind.config.js
 
 # Vim swap files
 *.swp
+
+# Allow only tailwind.config.js
+!tailwind.config.js
